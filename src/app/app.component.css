@@ -1,0 +1,18 @@
+
+  .example-icon {
+    padding: 0 14px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .mar-but{
+      margin-right: 10px;
+      
+  }
+  .center{
+    margin-left: 10px;
+    margin-right: auto;
+    width: 50px;
+}
+ 
