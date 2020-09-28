@@ -14,6 +14,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
+import { NewsComponent } from './news/news.component';
+import { LocalnewsComponent } from './localnews/localnews.component';
+import { ForeignewsComponent } from './foreignews/foreignews.component';
+import { SportsnewsComponent } from './sportsnews/sportsnews.component';
+import { WeatherComponent } from './weather/weather.component';
 
 
 @NgModule({
@@ -21,7 +26,12 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     LoginComponent,
     SignupComponent,
-    HomeComponent
+    HomeComponent,
+    NewsComponent,
+    LocalnewsComponent,
+    ForeignewsComponent,
+    SportsnewsComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
