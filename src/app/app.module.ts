@@ -15,10 +15,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
-import { LocalnewsComponent } from './localnews/localnews.component';
 import { ForeignewsComponent } from './foreignews/foreignews.component';
 import { SportsnewsComponent } from './sportsnews/sportsnews.component';
 import { WeatherComponent } from './weather/weather.component';
+import { InsertComponent } from './insert/insert.component';
+import { UpdateComponent } from './update/update.component';
+import { DeleteComponent } from './delete/delete.component';
 
 
 @NgModule({
@@ -28,10 +30,12 @@ import { WeatherComponent } from './weather/weather.component';
     SignupComponent,
     HomeComponent,
     NewsComponent,
-    LocalnewsComponent,
     ForeignewsComponent,
     SportsnewsComponent,
-    WeatherComponent
+    WeatherComponent,
+    InsertComponent,
+    UpdateComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
